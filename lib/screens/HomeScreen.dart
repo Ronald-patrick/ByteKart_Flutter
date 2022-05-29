@@ -42,6 +42,7 @@ class _HomeScreenState extends State<HomeScreen> {
       backgroundColor: Theme.of(context).primaryColor,
       appBar: AppBar(
         brightness: Brightness.dark,
+        backgroundColor: Theme.of(context).primaryColor,
         title: Text(
           "ByteKart",
           style: TextStyle(fontSize: 24),

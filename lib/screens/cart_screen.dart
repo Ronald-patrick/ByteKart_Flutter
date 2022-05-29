@@ -20,6 +20,7 @@ class _CartScreenState extends State<CartScreen> {
       backgroundColor: Theme.of(context).primaryColor,
       appBar: AppBar(
         brightness: Brightness.dark,
+        backgroundColor: Theme.of(context).primaryColor,
         title: Text(
           "Cart Items",
           style: TextStyle(fontSize: 24),

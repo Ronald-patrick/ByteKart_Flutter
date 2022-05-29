@@ -18,6 +18,7 @@ class ManageProducts extends StatelessWidget {
         backgroundColor: Theme.of(context).primaryColor,
         appBar: AppBar(
           brightness: Brightness.dark,
+          backgroundColor: Theme.of(context).primaryColor,
           title: const Text('Your Products'),
           actions: [
             IconButton(

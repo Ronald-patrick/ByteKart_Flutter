@@ -79,6 +79,7 @@ class _AddProductsState extends State<AddProducts> {
     return Scaffold(
       appBar: AppBar(
         brightness: Brightness.dark,
+        backgroundColor: Theme.of(context).primaryColor,
         title: Text('Add Product'),
         actions: [IconButton(onPressed: _saveForm, icon: Icon(Icons.save))],
       ),
